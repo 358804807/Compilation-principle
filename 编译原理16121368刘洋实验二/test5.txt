@@ -1,0 +1,49 @@
+var a,b,c,t,tag,p;
+begin
+	read(a);
+	read(b);
+	read(c);
+	tag=0;
+	begin
+		if a>b then
+			begin
+				t :=a;
+				a :=b;
+				b :=t;
+			end;
+		if a>c thens
+			begin
+				t :=a;
+				a :=c;
+				c :=t;
+			end;
+		if b>c then
+			begin
+				t :=b;
+				b :=c;
+				c :=t;
+			end
+	end;
+	if a+b>c then
+		tag:=1;
+	if tag=1 then
+		begin
+			write("yes")
+			if a=b then
+				p=1;
+			if b=c then
+				p=1;
+			if a=c then
+				p=0;
+			if a*a+b*b=c*c then
+				p=2;
+		end;
+	if p=0 then
+		write("1")
+	if p=1 then
+		write("2")
+	if p=2 then
+		write("3")
+	if tag=0 then
+		write("no")
+end.
