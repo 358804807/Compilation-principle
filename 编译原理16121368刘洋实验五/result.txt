@@ -1,0 +1,7 @@
+(ident,a)
+(times,*)
+(ident,a)
+(slash,/)
+(number,6)
+(plus,+)
+(number,3)
